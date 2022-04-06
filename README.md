@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+Multi Step Form Example
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+nodejs v16.13.2
+npm v8.1.2
 
-## Available Scripts
+# Steps to run the project
 
-In the project directory, you can run:
+1. npm install
+2. npm start
+3. npm test (To run test cases)
 
-### `npm start`
+# Dependencies used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. React v18
+2. Redux Toolkit
+3. Redux Saga
+4. Redux Logger
+5. React Hook Form
+6. Bootstrap
+7. Axios
+8. React Testing Library
+9. Jest
+10. Redux Saga Test Plan
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Validations Input Example
 
-### `npm test`
+1. Phone Number Pattern
+   03595-259506
+   03592 245902
+   03598245785
+   9775876662
+   0 9754845789
+   0-9778545896
+   +91 9456211568
+   91 9857842356
+   919578965389
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Email Pattern
+   test@test.com
 
-### `npm run build`
+3. Web URL Pattern
+   https://www.test.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Pending / Future Adjustments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Write more unit and integration test cases.
+2. Create a Progress / Nav Bar on top.
+3. Integrate React Router.
